@@ -13,7 +13,8 @@ import { BlogComponent } from './content/blog/blog.component';
 import { AppRoutingModule } from './app-routing.module'; // Routing rules imported
 import {HttpService} from './http.service';
 import {FormsModule} from '@angular/forms'; // Importing FormsModule
-import {HttpModule} from '@angular/http'; // Importing HttpModule
+import {HttpModule} from '@angular/http';
+import { HeaderComponent } from './header/header.component'; // Importing HttpModule
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {HttpModule} from '@angular/http'; // Importing HttpModule
     FilterPipe,
     ResumeComponent,
     ContactComponent,
-    BlogComponent
+    BlogComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

@@ -2,11 +2,14 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	font-family: Verdana, sans-serif;
+	font-family: Montserrat, sans-serif;
 	text-align: center;
 }
 
-#container {
+.container-fluid {
+	width: 100vw;
 	display: inline-block;
-	background-color: beige;
+/*	background-color: beige;*/
+	height: 300vh;
 }
+

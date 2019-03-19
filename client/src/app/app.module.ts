@@ -14,7 +14,11 @@ import { AppRoutingModule } from './app-routing.module'; // Routing rules import
 import {HttpService} from './http.service';
 import {FormsModule} from '@angular/forms'; // Importing FormsModule
 import {HttpModule} from '@angular/http';
-import { HeaderComponent } from './header/header.component'; // Importing HttpModule
+import { HeaderComponent } from './header/header.component';
+import { AboutMeComponent } from './content/resume/about-me/about-me.component';
+import { WorkExperienceComponent } from './content/resume/work-experience/work-experience.component';
+import { SkillsComponent } from './content/resume/skills/skills.component';
+import { PortfolioComponent } from './content/portfolio/portfolio.component'; // Importing HttpModule
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { HeaderComponent } from './header/header.component'; // Importing HttpMo
     ResumeComponent,
     ContactComponent,
     BlogComponent,
-    HeaderComponent
+    HeaderComponent,
+    AboutMeComponent,
+    WorkExperienceComponent,
+    SkillsComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

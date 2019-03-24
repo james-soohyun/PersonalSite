@@ -1,12 +1,41 @@
 <nav id='header' class='navbar fixed-top navbar-expand-lg navbar-dark'>
 	<button id='headerName' class='btn navbar-brand' type='button' [routerLink]='[""]'><img id='logo' src="assets/img/logo.png" width="30" height="30" class="d-inline-block align-center" alt="">  JAMES LEE</button>
 
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<button class="navbar-toggler justify-content-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     	<span class="navbar-toggler-icon"></span>
 	</button>
 
 	<div class='collapse navbar-collapse justify-content-end' id='navbarSupportedContent'>
 		<ul class='navbar-nav md-auto'>
+
+<!-- 			<li class='nav-item dropdown text-center'>
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Me</a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			        <a class="dropdown-item" href='/portfolio'>Bio</a>
+				    <div class="dropdown-divider"></div>
+			        <a class="dropdown-item" href="/contact">Work Experience</a>
+			        <a class="dropdown-item" href="/blog">Skills</a>
+			        <a class="dropdown-item" href="/portfolio">Education</a>
+			    </div>
+	   		</li>
+				
+
+			<li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          About Me
+		        </a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			        <a class="nav-link dropdown-item" [routerLink]='["]'>Bio</a>
+			        <div class="dropdown-divider"></div>
+			        <a class="nav-link dropdown-item" href="#">Work Experience</a>
+			        <a class="nav-link dropdown-item" href="#">Skills</a>
+			        <a class="nav-link dropdown-item" href="#">Education</a>
+		        </div>
+		    </li>
+
+
+ -->
+
 			<li class='nav-item'>
 				<a class='nav-link' [routerLink]='[""]'>About Me</a>
 			</li>
@@ -24,12 +53,5 @@
 		
 		
 
-<!--         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Something else here</a>
-        </div> -->
 	</div>
 </nav>

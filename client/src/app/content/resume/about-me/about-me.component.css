@@ -10,6 +10,10 @@ h2 {
 	font-size: 3rem;
 }
 
+#header {
+	margin-bottom: 2rem;
+}
+
 #aboutMe {
 /*	padding: 0px;*/
 }
@@ -26,6 +30,7 @@ h2 {
 }
 
 #description {
-	padding-top: 3rem;
+	padding-top: 5rem;
 	display: inline-block;
+	font-size: 1.2rem;
 }
